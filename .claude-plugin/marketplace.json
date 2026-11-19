@@ -1,0 +1,11 @@
+{
+  "name": "storyscope-rules",
+  "owner": { "name": "RustLangLatam" },
+  "plugins": [
+    {
+      "name": "storyscope-rules",
+      "source": "./",
+      "description": "Pre-writing structural rules derived from the StoryScope study (arXiv:2604.03136)."
+    }
+  ]
+}
