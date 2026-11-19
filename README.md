@@ -2,9 +2,9 @@
 
 An [Agent Skill](https://agentskills.io/specification) that changes **what an agent decides to write and in what order**, before it writes a word. It works in Claude Code, OpenAI Codex, Gemini CLI, Cursor, GitHub Copilot, OpenCode and any other client that reads `SKILL.md` folders.
 
-The rules come from the StoryScope study (Russell et al., COLM 2026; [paper](https://jenna-russell.github.io/assets/pdf/storyscope.pdf), [arXiv:2604.03136](https://arxiv.org/abs/2604.03136)). Its main finding: narrative structure alone separates human from AI fiction at 93.2 macro-F1. Rewriting AI stories to strip clichés and purple prose lowered detection by only 1.6 points (95.5 → 93.9).
+The rules come from the StoryScope study (Russell et al., COLM 2026; [paper](https://jenna-russell.github.io/assets/pdf/storyscope.pdf), [arXiv:2604.03136](https://arxiv.org/abs/2604.03136)). Its main finding: narrative structure alone separates human from AI fiction at 93.2 macro-F1. In its one editing test, rewriting 278 Gemini stories to strip clichés and purple prose lowered detection by only 1.6 points (95.5 → 93.9).
 
-So rewording a draft does not help. The skill works on the outline.
+So the skill works on the outline, not on the wording of a finished draft.
 
 > This is an independent, unofficial adaptation. It is not affiliated with or endorsed by the StoryScope authors.
 
@@ -139,7 +139,7 @@ These paths are taken from each client's documentation as of November 2026 ([Age
 
 ## What it does not do
 
-- It does **not** make text undetectable. Surface-level detectors score 99.7–99.9 on the same corpus, and this skill doesn't touch that layer.
+- It does **not** make text undetectable. Trained text-based detectors score 99.7–99.9 on the same corpus, and this skill doesn't touch that layer.
 - The evidence is **English fiction**. Transfer to reports, emails or other languages is a documented hypothesis, not a result.
 - It is **not** for hiding AI authorship where disclosure is required.
 

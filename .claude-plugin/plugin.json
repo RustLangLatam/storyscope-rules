@@ -1,6 +1,6 @@
 {
   "name": "storyscope-rules",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Pre-writing structural rules derived from the StoryScope study (arXiv:2604.03136) on the narrative decisions that distinguish AI-written from human-written text.",
   "author": { "name": "RustLangLatam" },
   "repository": "https://github.com/RustLangLatam/storyscope-rules",
