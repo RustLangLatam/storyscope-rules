@@ -105,4 +105,4 @@ And the other way round, a "no" requires correction: are all added references, f
 - **It does not guarantee passing a detector.** Trained surface-feature detectors reach 99.7–99.9 macro-F1 and this skill does not address them. Do not promise the text is undetectable.
 - **It is not for hiding authorship where it must be disclosed** (academic work, for example). It is for writing better.
 
-Source: Russell, Rajendhran, Pham, Iyyer and Wieting. *StoryScope: Investigating idiosyncrasies in AI fiction.* arXiv:2604.03136, 2026.
+Source: Russell, Rajendhran, Pham, Iyyer and Wieting. *StoryScope: Investigating idiosyncrasies in AI fiction.* COLM 2026. arXiv:2604.03136.

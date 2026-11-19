@@ -6,7 +6,7 @@
 
 ## Abstract
 
-Detectors of machine-generated text usually exploit surface statistics: token distributions, function-word frequencies and n-gram profiles. Russell et al. (2026) showed that a second, deeper signal exists. Using only *narrative* features, with style features excluded, an XGBoost classifier separated human-written from AI-written fiction at 93.2 macro-F1 over 61,608 stories, and the signal survived stylistic editing (93.9 macro-F1). This report describes **StoryScope Rules**, an agent skill for Claude Code that turns the study's reported human–AI feature differences into 31 constraints applied *before* drafting, plus an 8-item audit applied after drafting. We describe the source evidence, how features became rules, the extension to non-narrative registers, how the skill runs inside the agent, and the main threats to validity: genre transfer, the statistical rather than individual nature of the effects, and the absence of any claim about detector evasion.
+Detectors of machine-generated text usually exploit surface statistics: token distributions, function-word frequencies and n-gram profiles. Russell et al. (COLM 2026) showed that a second, deeper signal exists. Using only *narrative* features, with style features excluded, an XGBoost classifier separated human-written from AI-written fiction at 93.2 macro-F1 over 61,608 stories, and the signal survived stylistic editing (93.9 macro-F1). This report describes **StoryScope Rules**, an agent skill for Claude Code that turns the study's reported human–AI feature differences into 31 constraints applied *before* drafting, plus an 8-item audit applied after drafting. We describe the source evidence, how features became rules, the extension to non-narrative registers, how the skill runs inside the agent, and the main threats to validity: genre transfer, the statistical rather than individual nature of the effects, and the absence of any claim about detector evasion.
 
 **Keywords:** AI-generated text, narrative structure, LLM idiosyncrasies, writing constraints, agent skills, Claude Code.
 
@@ -193,7 +193,7 @@ The skill is meant to improve writing quality: less filler, fewer formulaic stru
 
 ## References
 
-- Russell, J., Rajendhran, R., Pham, C. M., Iyyer, M., & Wieting, J. (2026). *StoryScope: Investigating idiosyncrasies in AI fiction.* arXiv:2604.03136. https://arxiv.org/abs/2604.03136
+- Russell, J., Rajendhran, R., Pham, C. M., Iyyer, M., & Wieting, J. (2026). *StoryScope: Investigating idiosyncrasies in AI fiction.* In *Proceedings of the Conference on Language Modeling (COLM 2026)*. arXiv:2604.03136. PDF: https://jenna-russell.github.io/assets/pdf/storyscope.pdf
 - Presser, S. (2020). *Books3.* Dataset released as part of The Pile.
 
 ## Appendix A. Rule–Evidence Index
@@ -226,4 +226,4 @@ The skill is meant to improve writing quality: less filler, fewer formulaic stru
 | 24–30 | Claude fingerprints | — | — | qualitative |
 | 31 | Rarity percentile | 0.71 | 0.49 | percentile |
 
-Values are those encoded in the skill. §2 figures were checked against the arXiv abstract and HTML (v6). Per-feature values in this table were not independently re-checked against the paper's appendices.
+Values are those encoded in the skill. They were spot-checked against the camera-ready PDF (COLM 2026; arXiv v6, 10 Aug 2026), in particular the core-feature comparison table in the appendix.

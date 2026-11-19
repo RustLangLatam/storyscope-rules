@@ -1,6 +1,6 @@
 # storyscope-rules
 
-A Claude Code skill that changes **what an agent decides to write and in what order**, before it writes a word. The rules come from the StoryScope study ([arXiv:2604.03136](https://arxiv.org/abs/2604.03136)). Its main finding: narrative structure alone separates human from AI fiction at 93.2 macro-F1, and editing the style afterwards leaves that intact (93.9).
+A Claude Code skill that changes **what an agent decides to write and in what order**, before it writes a word. The rules come from the StoryScope study (Russell et al., COLM 2026; [paper](https://jenna-russell.github.io/assets/pdf/storyscope.pdf), [arXiv:2604.03136](https://arxiv.org/abs/2604.03136)). Its main finding: narrative structure alone separates human from AI fiction at 93.2 macro-F1, and editing the style afterwards leaves that intact (93.9).
 
 So rewording a draft does not help. The skill works on the outline.
 
@@ -78,13 +78,13 @@ docs/
 If you use this in research, cite the source study:
 
 ```bibtex
-@misc{russell2026storyscope,
+@inproceedings{russell2026storyscope,
   title         = {StoryScope: Investigating idiosyncrasies in AI fiction},
   author        = {Russell, Jenna and Rajendhran, Rishanth and Pham, Chau Minh and Iyyer, Mohit and Wieting, John},
+  booktitle     = {Conference on Language Modeling (COLM)},
   year          = {2026},
   eprint        = {2604.03136},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CL}
+  archivePrefix = {arXiv}
 }
 ```
 
