@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this skill, please cite the StoryScope paper it is derived from (preferred-citation below)."
+title: "storyscope-rules: pre-writing structural rules derived from the StoryScope study"
+type: software
+version: 1.0.0
+date-released: 2026-11-20
+license: MIT
+repository-code: "https://github.com/RustLangLatam/storyscope-rules"
+authors:
+  - name: "RustLangLatam"
+keywords:
+  - AI-generated text
+  - narrative structure
+  - Claude Code
+  - agent skills
+preferred-citation:
+  type: conference-paper
+  title: "StoryScope: Investigating idiosyncrasies in AI fiction"
+  authors:
+    - family-names: Russell
+      given-names: Jenna
+    - family-names: Rajendhran
+      given-names: Rishanth
+    - family-names: Pham
+      given-names: Chau Minh
+    - family-names: Iyyer
+      given-names: Mohit
+    - family-names: Wieting
+      given-names: John
+  collection-title: "Conference on Language Modeling (COLM 2026)"
+  year: 2026
+  identifiers:
+    - type: other
+      value: "arXiv:2604.03136"
+  url: "https://arxiv.org/abs/2604.03136"

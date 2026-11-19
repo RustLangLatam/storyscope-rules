@@ -5,7 +5,7 @@ description: "Mandatory writing rules derived from the StoryScope study (Russell
 
 # StoryScope Rules
 
-The study compared the same writing prompt answered by a person and by five models (Claude, GPT, Gemini, DeepSeek and Kimi). Ignoring style entirely, narrative structure alone separated human from AI text at 93.2 macro-F1. Editing the prose for style barely changed that (93.9 after editing).
+The study compared the same writing prompt answered by a person and by five models (Claude, GPT, Gemini, DeepSeek and Kimi). Ignoring style entirely, narrative structure alone separated human from AI text at 93.2 macro-F1. Rewriting AI stories to remove clichés and purple prose barely changed detection (95.5 → 93.9 macro-F1 on 278 edited stories).
 
 **That is why these rules apply before writing.** What gives the text away is what gets told and in what order. Polishing sentences at the end does not fix it.
 
@@ -42,7 +42,7 @@ Figures: **human vs. AI** in the study; scales run from 1 to 5.
 
 ### B. Stop acting it out through body and atmosphere
 
-6. **Name the emotion when that is natural.** Somatic: 38% vs. 81%. Direct label ("she was afraid"): 29% vs. 8%. This is the largest gap in the study. No tightening chests, cold sweat or closing throats by default.
+6. **Name the emotion when that is natural.** Somatic: 38% vs. 81%. Direct label ("she was afraid"): 29% vs. 8%. This is the largest gap among the study's 30 core features. No tightening chests, cold sweat or closing throats by default.
 7. **The setting does not mirror the mood.** 3.58 vs. 4.07. No rain in the sad scene, no dimming lights. *Non-narrative:* no metaphors of storms, horizons or landscapes.
 8. **Fewer smells.** 57% vs. 82%. Do not add smells by reflex.
 9. **Less sensory density and less nature.** Density 3.66 vs. 3.93; nature 2.83 vs. 3.21. Use one chosen detail, not a list of senses.
@@ -55,7 +55,7 @@ Figures: **human vs. AI** in the study; scales run from 1 to 5.
 13. **The protagonist does not solve everything alone.** Resolution by own decision: 46% vs. 69%. Let others, chance or circumstance step in. *Non-narrative:* acknowledge what depended on third parties or the market.
 14. **Do not close on an inner realization.** Acceptance or understanding: 27% vs. 47%. An ambiguous or unresolved ending is valid. *Non-narrative:* leave open what is open, with no comforting conclusion.
 15. **Give less setup before the problem.** Prior investment 2.76 vs. 2.99; establishing the entry space 2.12 vs. 2.33; spatial detail 2.27 vs. 2.53. Get into it. *Non-narrative:* no opening context; start with what matters.
-16. **Do not introduce anyone by looks or résumé.** External description: 30% vs. 52%. Introduce them talking or doing something; this is the most human trait in the whole study.
+16. **Do not introduce anyone by looks or résumé.** External description: 30% vs. 52%. Introduce them talking or doing something; introduction in dialogue is the top-ranked human fingerprint in the study.
 
 ### D. Do what AI avoids
 

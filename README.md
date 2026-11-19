@@ -1,8 +1,10 @@
 # storyscope-rules
 
-A Claude Code skill that changes **what an agent decides to write and in what order**, before it writes a word. The rules come from the StoryScope study (Russell et al., COLM 2026; [paper](https://jenna-russell.github.io/assets/pdf/storyscope.pdf), [arXiv:2604.03136](https://arxiv.org/abs/2604.03136)). Its main finding: narrative structure alone separates human from AI fiction at 93.2 macro-F1, and editing the style afterwards leaves that intact (93.9).
+A Claude Code skill that changes **what an agent decides to write and in what order**, before it writes a word. The rules come from the StoryScope study (Russell et al., COLM 2026; [paper](https://jenna-russell.github.io/assets/pdf/storyscope.pdf), [arXiv:2604.03136](https://arxiv.org/abs/2604.03136)). Its main finding: narrative structure alone separates human from AI fiction at 93.2 macro-F1. Rewriting AI stories to strip clichés and purple prose lowered detection by only 1.6 points (95.5 → 93.9).
 
 So rewording a draft does not help. The skill works on the outline.
+
+> This is an independent, unofficial adaptation. It is not affiliated with or endorsed by the StoryScope authors.
 
 ## Install
 
@@ -60,6 +62,7 @@ It is then available as `/storyscope-rules`. For a single project, copy it into 
 
 - [`docs/TECHNICAL_REPORT.md`](docs/TECHNICAL_REPORT.md): source study, how features became rules, register transfer, execution protocol, threats to validity, and a rule–evidence index.
 - [`skills/storyscope-rules/SKILL.md`](skills/storyscope-rules/SKILL.md): the skill itself.
+- [`CHANGELOG.md`](CHANGELOG.md): release history and corrections.
 
 ## Repository layout
 
