@@ -1,6 +1,7 @@
 ---
 name: storyscope-rules
 description: "Mandatory writing rules derived from the StoryScope study (Russell et al., 2026; 61,608 stories) on the content and structure decisions that give away AI-written text. Use it BEFORE starting any task that will produce text for people, even when not asked: proposals, reports, emails, documentation, scripts, pitches, fiction, interface copy, PR descriptions and long messages. Also use it when asked to make something not sound AI-written, sound human, or have less filler. In code-only tasks it applies to comments, commits and the final report."
+license: MIT
 ---
 
 # StoryScope Rules
@@ -68,6 +69,8 @@ Figures: **human vs. AI** in the study; scales run from 1 to 5.
 23. **Ambiguous morality.** Ambivalent protagonist: 59% vs. 38%. Their choices can carry a cost and be debatable. *Non-narrative:* state the real cost of what you recommend.
 
 ### E. Avoid your own habits (Claude)
+
+The study measured these traits on Claude Sonnet 4.6. **If you are not a Claude model**, treat rules 24–30 as optional and check your own family's habits instead: GPT leans on gossip and rumor as a plot device and on distant retrospective framing; Gemini defaults to external character description, extended denouements, tidy endings and bleak settings; DeepSeek front-loads crucial context; Kimi sits at the generic center of AI writing. Rules 1–23 and 31 apply to every model.
 
 The study identifies these Claude traits:
 

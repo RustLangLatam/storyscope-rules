@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.0 — 2026-11-20
+
+- Documented installation and use outside Claude Code: OpenAI Codex, Gemini CLI, Cursor, GitHub Copilot and OpenCode, with per-client paths and invocation.
+- README: full plugin usage guide (automatic and explicit invocation, update, disable, uninstall, project scope).
+- Skill: added the `license` frontmatter field from the Agent Skills specification. When the skill runs on a non-Claude model, group E is marked optional and the study's fingerprints for GPT, Gemini, DeepSeek and Kimi are given instead.
+- Technical report: new §4.2 Portability.
+
 ## 1.0.0 — 2026-11-20
 
 First public release.

@@ -1,6 +1,6 @@
 # StoryScope Rules: Operationalizing Narrative-Level Discriminators of AI-Generated Text as Pre-Writing Constraints for LLM Agents
 
-**Technical Report — v1.0.0 — November 2026**
+**Technical Report — v1.1.0 — November 2026**
 
 *Independent, unofficial work. Not affiliated with or endorsed by the authors of the source study.*
 
@@ -130,7 +130,13 @@ The skill is a single Markdown file with YAML frontmatter, loaded by Claude Code
 
 The repository is also a single-plugin Claude Code marketplace (`.claude-plugin/`), so the skill can be installed and updated through the plugin system. Installation is described in the README.
 
-### 4.2 Precedence
+### 4.2 Portability
+
+The skill follows the open Agent Skills specification: a directory whose name equals the `name` field (lowercase, hyphenated, ≤ 64 characters), containing `SKILL.md` with `name`, `description` (≤ 1024 characters; 546 here) and the optional `license` field. It references no host-specific variables, tools or scripts, so the same file is valid in every client that implements the specification. As of November 2026 these include OpenAI Codex, Gemini CLI, Cursor, GitHub Copilot and OpenCode. Codex, Gemini CLI, Cursor and OpenCode share the user-level directory `~/.agents/skills/`, so one copy serves all four. Copilot uses `~/.copilot/skills/`. Per-client paths are listed in the README.
+
+One part of the content depends on the model rather than the host. Group E encodes fingerprints measured on Claude Sonnet 4.6. When the skill runs on another model family, it marks rules 24–30 as optional and substitutes the fingerprints the study reports for GPT, Gemini, DeepSeek and Kimi.
+
+### 4.3 Precedence
 
 Rule compliance is bounded by a strict precedence order:
 
@@ -140,7 +146,7 @@ Rule compliance is bounded by a strict precedence order:
 
 Any rule broken because of (1) or (2) must be disclosed in one line. A rule that does not apply (e.g., smells in a financial report) is satisfied by omission and is never forced.
 
-### 4.3 Execution Protocol
+### 4.4 Execution Protocol
 
 ```
           ┌────────────────────┐
@@ -198,7 +204,7 @@ These are design expectations. No quantitative evaluation is provided in this re
 
 ## 7. Ethical Considerations
 
-The skill is meant to improve writing quality: less filler, fewer formulaic structures, more honesty about uncertainty and cost. It must not be used to hide AI authorship where disclosure is required (academic submissions, journalism under disclosure policies, regulated communications). The precedence rule in §4.2 puts factual accuracy above every stylistic goal.
+The skill is meant to improve writing quality: less filler, fewer formulaic structures, more honesty about uncertainty and cost. It must not be used to hide AI authorship where disclosure is required (academic submissions, journalism under disclosure policies, regulated communications). The precedence rule in §4.3 puts factual accuracy above every stylistic goal.
 
 ## 8. Future Work
 

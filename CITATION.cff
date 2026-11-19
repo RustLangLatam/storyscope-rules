@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this skill, please cite the StoryScope paper it is derived from (preferred-citation below)."
 title: "storyscope-rules: pre-writing structural rules derived from the StoryScope study"
 type: software
-version: 1.0.0
+version: 1.1.0
 date-released: 2026-11-20
 license: MIT
 repository-code: "https://github.com/RustLangLatam/storyscope-rules"
