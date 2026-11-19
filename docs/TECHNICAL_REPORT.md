@@ -35,7 +35,7 @@ All figures in this section come from Russell et al. (2026), camera-ready versio
 | AI sources | Claude Sonnet 4.6, DeepSeek V3.2, Gemini 3 Flash, GPT-5.4, Kimi K2.5 |
 | Design | Parallel: 1 human + 5 AI stories per prompt |
 | Total stories | 61,608 (24 AI generations refused) |
-| Length | ~5,000 words requested; corpus mean 4,753, varying widely by source |
+| Length | ~5,000 words (median requested target 5,000; actual corpus mean 4,753; varies widely by source) |
 | Language / genre | English fiction |
 
 The parallel design controls for prompt content. Differences between the human and AI stories for the same prompt cannot come from topic.
@@ -200,7 +200,7 @@ Applied mechanically, the rules can also produce the opposite failure: quirks ad
 
 ## 6. Threats to Validity
 
-**External validity (genre and language).** All evidence comes from English fiction of about 5,000 words. Transfer to short-form, technical or non-English text is an extrapolation (§3.4).
+**External validity (genre and language).** All evidence comes from English fiction averaging about 4,750 words. Transfer to short-form, technical or non-English text is an extrapolation (§3.4).
 
 **Statistical vs. individual effects.** The figures describe population tendencies. Human writers also show many "AI-typical" traits (52% include narratorial thematic commentary). One trait in one text is not evidence of anything, and the rules must not be used to judge whether a given text was written by AI.
 

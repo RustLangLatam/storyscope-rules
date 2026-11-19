@@ -75,7 +75,7 @@ The study measured these traits on Claude Sonnet 4.6. **If you are not a Claude 
 The study identifies these Claude traits. They compare Claude with the other models; the paper gives no human baseline for them.
 
 24. **Do not keep intensity flat.** Claude is the model that escalates least. Let something truly get worse.
-25. **Check the variety of events.** Event-type diversity is Claude's second strongest fingerprint. The paper does not state the direction, so check that the kinds of events actually vary.
+25. **Check the variety of events.** Event-type diversity is one of Claude's top fingerprints (second by uniqueness ratio, highest by SHAP importance). The paper does not state the direction, so check that the kinds of events actually vary.
 26. **Do not add an epilogue or a final jump into the future.**
 27. **Prefer rupture to a final calm.** Do not always end on a quiet scene.
 28. **Vary the voice.** Claude's narrative voice is the most uniform of all sources. Let register and rhythm change where the content changes.
